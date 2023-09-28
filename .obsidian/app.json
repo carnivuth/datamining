@@ -1,0 +1,11 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "trashOption": "none",
+  "attachmentFolderPath": "assets",
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}
