@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"6966cc00003cb877","x":560,"y":100,"width":400,"height":400,"type":"file","file":"pages/DATA WAREHOUSE ARCHITECTURES.md"},
+		{"id":"a6fe155017f99580","x":-106,"y":-80,"width":246,"height":41,"type":"text","text":"# DATAMINING"},
+		{"id":"b74175251077cc37","x":740,"y":-480,"width":400,"height":400,"type":"file","file":"pages/DATA TYPES.md"},
+		{"id":"6ecf75efb9a7303c","x":500,"y":-722,"width":209,"height":84,"type":"text","text":"# MACHINE LEARNING"},
+		{"id":"e157b776062379a6","type":"file","file":"pages/CONCEPTUAL MODELING.md","x":580,"y":600,"width":400,"height":400},
+		{"id":"5f2ebe869cec563b","type":"file","file":"pages/CRISP DM METHODOLOGY.md","x":440,"y":1100,"width":400,"height":400},
+		{"id":"e847392230486bab","type":"file","file":"pages/BUSINESS INTELLIGENCE AND DATA WAREHOUSE.md","x":-140,"y":100,"width":400,"height":400},
+		{"id":"7065b245fa4f0b89","x":-60,"y":-680,"width":400,"height":400,"type":"file","file":"pages/DATA LAKES.md"},
+		{"id":"ca9a8fd4934c0510","x":-640,"y":-680,"width":400,"height":400,"type":"file","file":"pages/OLAP.md"}
+	],
+	"edges":[
+		{"id":"dae3895ac9e72af7","fromNode":"e847392230486bab","fromSide":"right","toNode":"6966cc00003cb877","toSide":"left"},
+		{"id":"78f78305e211fc12","fromNode":"6966cc00003cb877","fromSide":"bottom","toNode":"e157b776062379a6","toSide":"top"},
+		{"id":"7c13e51ede606698","fromNode":"6ecf75efb9a7303c","fromSide":"bottom","toNode":"b74175251077cc37","toSide":"top"},
+		{"id":"4759f8bf2cccbb1b","fromNode":"a6fe155017f99580","fromSide":"bottom","toNode":"e847392230486bab","toSide":"top"},
+		{"id":"b53221495ca2962f","fromNode":"e157b776062379a6","fromSide":"bottom","toNode":"5f2ebe869cec563b","toSide":"top"},
+		{"id":"337949a05e535b3c","fromNode":"a6fe155017f99580","fromSide":"top","toNode":"ca9a8fd4934c0510","toSide":"bottom"},
+		{"id":"c70c999878069bf6","fromNode":"a6fe155017f99580","fromSide":"top","toNode":"7065b245fa4f0b89","toSide":"bottom"}
+	]
+}
