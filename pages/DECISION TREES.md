@@ -1,6 +1,6 @@
 
 Decision trees are tree shaped data structures with node and leaf
-that reppresents operations on the datasets used to classified data
+that represents operations on the datasets used to classified data
 
 - leaf -> put data in class c (class of the leaf node)
 
