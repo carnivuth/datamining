@@ -1,10 +1,10 @@
 
-| Data types | Description                                                   | Examples                          | Descriptive statistics allowed                    | Domain    |
-| ---------- | ------------------------------------------------------------- | --------------------------------- | ------------------------------------------------- | --------- |
-| nominal    | set of labels Operators: =, !=                                | zip code, fiscal code             | mode,entropy,contingency,correlation              | Discrete  |
-| ordinal    | is possible to order operators to exist <,<<,>,>>             | non numerical quality evaluations | media percentiles rank correlations               | Discrite  |
-| interval   | possible to add or subtract data +,-                          | calendar dates                    | average standard deviations                       | Continous |
-| ratio      | univocal definition of 0 allowing all mathematical operations | temperatures                      | geometric mean harmonic mean percentage variation | Continous |
+|  | Data types | Description | Examples | Descriptive statistics allowed | Domain |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| Categorical | nominal | set of labels Operators: =, != | zip code, fiscal code | mode,entropy,contingency,correlation | Discrete |
+|  | ordinal | is possible to order operators to exist <,<<,>,>> | non numerical quality evaluations | media percentiles rank correlations | Discrite |
+| Numerical | interval | possible to add or subtract data +,- | calendar dates | average standard deviations | Continous |
+|  | ratio | univocal definition of 0 allowing all mathematical operations | temperatures | geometric mean harmonic mean percentage variation | Continous |
 
 
 ## INTERVAL DATA
