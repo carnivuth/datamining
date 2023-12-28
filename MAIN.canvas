@@ -10,7 +10,7 @@
 		{"id":"6ecf75efb9a7303c","type":"text","text":"# MACHINE LEARNING","x":1140,"y":-1040,"width":209,"height":84},
 		{"id":"b74175251077cc37","type":"file","file":"pages/DATA TYPES.md","x":580,"y":-680,"width":400,"height":400},
 		{"id":"d8f89172f4b02b7a","type":"text","text":"# SUPERVISED LEARNING","x":1555,"y":-722,"width":250,"height":84},
-		{"id":"23e64f164cb59adc","x":1155,"y":-480,"width":400,"height":400,"type":"file","file":"pages/CLASSIFICATION.md"},
+		{"id":"23e64f164cb59adc","type":"file","file":"pages/CLASSIFICATION.md","x":1155,"y":-480,"width":400,"height":400},
 		{"id":"ecae646a14a92104","type":"file","file":"pages/DECISION TREES.md","x":1155,"y":120,"width":400,"height":400}
 	],
 	"edges":[
