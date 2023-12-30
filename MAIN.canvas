@@ -1,27 +1,7 @@
 {
 	"nodes":[
-<<<<<<< Updated upstream
-		{"id":"c65b20788214658c","x":-2500,"y":-1270,"width":1494,"height":2390,"type":"group","label":"DATA MINING"},
-		{"id":"7c45bb36f05e5b73","type":"file","file":"pages/ASSOCIATION RULES.md","x":396,"y":-1520,"width":484,"height":360},
-=======
-		{"id":"1af7fbbda6995b61","x":1295,"y":708,"width":250,"height":60,"type":"file","file":"pages/MODEL SELECTION.md"},
-		{"id":"cf4f6e5cdc2f59f6","type":"file","file":"pages/RETI NEURALI.md","x":3600,"y":-760,"width":620,"height":520},
-		{"id":"6966cc00003cb877","type":"file","file":"pages/DATA WAREHOUSE ARCHITECTURES.md","x":560,"y":100,"width":400,"height":400},
-		{"id":"a6fe155017f99580","type":"text","text":"# DATAMINING","x":-106,"y":-80,"width":246,"height":41},
-		{"id":"e157b776062379a6","type":"file","file":"pages/CONCEPTUAL MODELING.md","x":580,"y":600,"width":400,"height":400},
-		{"id":"5f2ebe869cec563b","type":"file","file":"pages/CRISP DM METHODOLOGY.md","x":440,"y":1100,"width":400,"height":400},
-		{"id":"e847392230486bab","type":"file","file":"pages/BUSINESS INTELLIGENCE AND DATA WAREHOUSE.md","x":-140,"y":100,"width":400,"height":400},
-		{"id":"7065b245fa4f0b89","type":"file","file":"pages/DATA LAKES.md","x":-60,"y":-680,"width":400,"height":400},
-		{"id":"ca9a8fd4934c0510","type":"file","file":"pages/OLAP.md","x":-640,"y":-680,"width":400,"height":400},
->>>>>>> Stashed changes
-		{"id":"6ecf75efb9a7303c","type":"text","text":"# MACHINE LEARNING","x":1140,"y":-1040,"width":209,"height":84},
-		{"id":"b74175251077cc37","type":"file","file":"pages/DATA TYPES.md","x":580,"y":-680,"width":400,"height":400},
+		{"id":"c65b20788214658c","type":"group","x":-2500,"y":-1270,"width":1494,"height":2390,"label":"DATA MINING"},
 		{"id":"d8f89172f4b02b7a","type":"text","text":"# SUPERVISED LEARNING","x":1555,"y":-722,"width":250,"height":84},
-		{"id":"23e64f164cb59adc","type":"file","file":"pages/CLASSIFICATION.md","x":1155,"y":-480,"width":400,"height":400},
-		{"id":"ecae646a14a92104","type":"file","file":"pages/DECISION TREES.md","x":1155,"y":120,"width":400,"height":400},
-<<<<<<< Updated upstream
-		{"id":"23c88b284f06b746","type":"file","file":"pages/TIPI DI LEARNING.md","x":2179,"y":-1201,"width":401,"height":361},
-		{"id":"57ba395a7a7547b9","type":"file","file":"pages/SCELTE DI PROGETTO.md","x":1800,"y":-1400,"width":335,"height":256},
 		{"id":"a6adb33fe6ad7ecc","type":"file","file":"pages/NAIVE BAYES CLASSIFIER.md","x":1765,"y":40,"width":600,"height":360},
 		{"id":"e157b776062379a6","type":"file","file":"pages/CONCEPTUAL MODELING.md","x":-1426,"y":120,"width":400,"height":400},
 		{"id":"5f2ebe869cec563b","type":"file","file":"pages/CRISP DM METHODOLOGY.md","x":-1426,"y":700,"width":400,"height":400},
@@ -30,20 +10,21 @@
 		{"id":"a6fe155017f99580","type":"text","text":"# DATAMINING","x":-1923,"y":-660,"width":246,"height":50},
 		{"id":"ca9a8fd4934c0510","type":"file","file":"pages/OLAP.md","x":-2480,"y":-1220,"width":400,"height":400},
 		{"id":"7065b245fa4f0b89","type":"file","file":"pages/DATA LAKES.md","x":-1560,"y":-1220,"width":400,"height":400},
+		{"id":"7c45bb36f05e5b73","type":"file","file":"pages/ASSOCIATION RULES.md","x":396,"y":-1520,"width":484,"height":360},
+		{"id":"6ecf75efb9a7303c","type":"text","text":"# MACHINE LEARNING","x":1140,"y":-1040,"width":209,"height":84},
+		{"id":"23e64f164cb59adc","type":"file","file":"pages/CLASSIFICATION.md","x":1155,"y":-480,"width":400,"height":400},
+		{"id":"23c88b284f06b746","type":"file","file":"pages/TIPI DI LEARNING.md","x":2179,"y":-1201,"width":401,"height":361},
+		{"id":"57ba395a7a7547b9","type":"file","file":"pages/SCELTE DI PROGETTO.md","x":1800,"y":-1400,"width":335,"height":256},
 		{"id":"f7b3daa6769c8c6e","type":"file","file":"pages/LINEAR PERCEPTRON.md","x":2179,"y":-680,"width":560,"height":530},
 		{"id":"cf06a5c190a64fad","type":"file","file":"pages/SVM.md","x":2840,"y":-695,"width":560,"height":560},
 		{"id":"cf4f6e5cdc2f59f6","type":"file","file":"pages/RETI NEURALI.md","x":3520,"y":-675,"width":620,"height":520},
 		{"id":"01c5620041e221d7","type":"file","file":"pages/VALUTARE UN CLASSIFICATORE PROBABILISTICO.md","x":1825,"y":520,"width":540,"height":600},
+		{"id":"ecae646a14a92104","type":"file","file":"pages/DECISION TREES.md","x":1155,"y":120,"width":400,"height":400},
 		{"id":"5b2fef5f48b6f722","type":"file","file":"pages/FREQUENT ITEMSET GENERATION.md","x":-178,"y":-1845,"width":394,"height":320},
-		{"id":"b2f33c6ab01235ac","type":"file","file":"pages/APRIORI ALGORITHM.md","x":-680,"y":-2200,"width":422,"height":355}
-=======
-		{"id":"f7b3daa6769c8c6e","type":"file","file":"pages/LINEAR PERCEPTRON.md","x":2085,"y":-820,"width":560,"height":530},
-		{"id":"23c88b284f06b746","type":"file","file":"pages/TIPI DI LEARNING.md","x":2179,"y":-1201,"width":401,"height":361},
-		{"id":"57ba395a7a7547b9","type":"file","file":"pages/SCELTE DI PROGETTO.md","x":1800,"y":-1400,"width":335,"height":256},
-		{"id":"a6adb33fe6ad7ecc","type":"file","file":"pages/NAIVE BAYES CLASSIFIER.md","x":1765,"y":40,"width":600,"height":360},
-		{"id":"01c5620041e221d7","type":"file","file":"pages/VALUTARE UN CLASSIFICATORE PROBABILISTICO.md","x":2040,"y":520,"width":540,"height":600},
-		{"id":"cf06a5c190a64fad","type":"file","file":"pages/SVM.md","x":2880,"y":-850,"width":560,"height":560}
->>>>>>> Stashed changes
+		{"id":"b2f33c6ab01235ac","type":"file","file":"pages/APRIORI ALGORITHM.md","x":-680,"y":-2200,"width":422,"height":355},
+		{"id":"0c8d6a1b220e31e4","x":580,"y":520,"width":400,"height":400,"type":"file","file":"pages/DECISION TREE PRUNING.md"},
+		{"id":"225960dbbbb65c97","x":320,"y":0,"width":400,"height":400,"type":"file","file":"pages/TRAINING STRATEGIES.md"},
+		{"id":"b74175251077cc37","type":"file","file":"pages/DATA TYPES.md","x":380,"y":-760,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"dae3895ac9e72af7","fromNode":"e847392230486bab","fromSide":"right","toNode":"6966cc00003cb877","toSide":"left"},
@@ -65,6 +46,8 @@
 		{"id":"5eda2a39f110a092","fromNode":"d8f89172f4b02b7a","fromSide":"right","toNode":"57ba395a7a7547b9","toSide":"left"},
 		{"id":"4a477879ad487614","fromNode":"6ecf75efb9a7303c","fromSide":"left","toNode":"7c45bb36f05e5b73","toSide":"bottom"},
 		{"id":"9bb1c3602d11434d","fromNode":"7c45bb36f05e5b73","fromSide":"left","toNode":"5b2fef5f48b6f722","toSide":"bottom"},
-		{"id":"1a7244a4c15d84bd","fromNode":"5b2fef5f48b6f722","fromSide":"left","toNode":"b2f33c6ab01235ac","toSide":"bottom"}
+		{"id":"1a7244a4c15d84bd","fromNode":"5b2fef5f48b6f722","fromSide":"left","toNode":"b2f33c6ab01235ac","toSide":"bottom"},
+		{"id":"649f81193ff60114","fromNode":"ecae646a14a92104","fromSide":"left","toNode":"0c8d6a1b220e31e4","toSide":"top"},
+		{"id":"eb5981b18abe0702","fromNode":"23e64f164cb59adc","fromSide":"left","toNode":"225960dbbbb65c97","toSide":"top"}
 	]
 }
