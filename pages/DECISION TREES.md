@@ -1,3 +1,4 @@
+# DECISION TREES
 
 Decision trees are tree shaped data structures with node and leaf
 that represents operations on the datasets used to classified data
@@ -12,11 +13,13 @@ that represents operations on the datasets used to classified data
 
 based on the concept of entropy
 
-![](Pasted%20image%2020231114161404.png)
+$$
+H(X)= -\sum{pj\log{2}{pj}}
+$$
 
-higher the entropy -> attribute values with the same probability
+- higher the entropy -> attribute values with the same probability
 
-lower the entropy -> attribute values with the same probability
+- lower the entropy -> attribute values with the same probability
 
 the entropy of a child node is always lower of the entropy of the father node
 
@@ -32,7 +35,24 @@ the attribute with the maximum [IG](#INFORMATION%20GAIN) is chosen
 
 ### BUILD DECISION TREE WITH BINARY SPLITS
 
-![](Pasted%20image%2020231114163152.png)
+```python
+procedure buildTree(dataset X , node p)
+	
+	if all the class values of X are c then
+		return node p as a leaf, label of p is c
+	
+	if no attribute can give a positive information gain in X then
+		say that the majority of elements in X has class c
+		return node p as a leaf, label of p is c
+
+find the attribute d and threshold t giving maximum information gain in X
+create two internal nodes descendant of p, say pleft and pright
+let X left = selection on X with d < t
+buildTree(X left , pleft )
+let X right = selection on sdata with d >= t
+buildTree(X right , pright )
+
+```
 
 ### TRAINING SET ERROR
 
