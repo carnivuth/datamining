@@ -1,5 +1,30 @@
 #FORMULARIO PER LA PARTE PRATICA DELLA PROVA DI ML
 
+#IMPORT NECESSARIE (mettere tutte le cose che vengono importate, man mano 
+#che si trova nuova roba da importare nelle soluzioni dei vari lab)
+
+#Pandas
+import pandas as pd
+#Pyplot
+import matplotlib.pyplot as plt
+#Figure
+from matplotlib.pyplot import figure
+#Seaborn
+import seaborn as sns
+#Numpy
+import numpy as np
+#train_test_split
+from sklearn.model_selection import train_test_split
+#Accuracy, Classification Report, Confusion Matrix
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+#Cross Validation Score, GridSearchCV, StratifiedKFold
+from sklearn.model_selection import cross_val_score,  GridSearchCV, StratifiedKFold
+#CofusionMatrixDisplay
+from sklearn.metrics import ConfusionMatrixDisplay
+#DT Classifier
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+
+
 #CARICAMENTO DEL DATASET
 Per caricare un dataset ci sono 2 modi: da file e tramite link remoto. 
 ATTENZIONE! Prima di aprire un dataset DEVI VEDERE COME E' FATTO
@@ -47,6 +72,15 @@ ALL'INTERNO (es. separatori, presenza dei nomi delle colonne, ecc.)
 	df.head(numero_di_righe_da_visualizzare)
 	#Per visualizzare una descrizione sintetica del dataset (media, std, min/max, 25/50/75%)
 	df.describe()
-
-
+	#Per visualizzare l'istogramma dei valori numerici contenuti nel dataset
+	df.hist(figsize=(x,y))		pd.DataFrame.hist(df, figsize=[x,y])
+	#Per visualizzare l'istogramma della colonna target
+	#Di solito, il target è una colonna che ha
+	#valori differenti dalle altre, oppure viene specificata.
+	#Molto spesso durante il lab abbiamo preso l'ultima colonna.
+	plt.hist(df[target])
+	plt.show()
+	#Per visualizzare il pairplot delle colonne in relazione al target
+	sns.pairplot(df, hue=target, diag_kind='kde')
+	
 	
