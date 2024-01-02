@@ -27,6 +27,7 @@ source env/bin/activate
 # install dependencies
 pip install -r requirements.txt
 ```
+the datasets can be downloaded [here](https://pokelab.ddns.net:44372/datasets/)
 
 ## INDEX
 
