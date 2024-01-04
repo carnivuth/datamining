@@ -2,63 +2,53 @@
 
 Transforming in a numerical quantity the features that represent categories.
 
-
-We have 3 major encoders, divided in:
-
-- ### ENCODERS APPLIED TO PREDICTORS
-- ### ENCODERS APPLIED TO THE TARGET
-
+there are 2 types of encoders
 ## ENCODERS APPLIED TO PREDICTORS
 
-We have:
-
-- **OneHotEncoder**: we can import it by the command  
-  
-				  `from sklearn.preprocessing import OneHotEncoder`
-				  
+- ### ONE HOT ENCODER  
+  		   
 	It transforms features in a set of columns that integrate the predictor X:
-		1. it counts all the categories within the features;
-		2. it replaces the analyzed features with as many columns as there are categories;
-		3. all the new columns values will be 0 or 1. For every sample (X's rows), it will be put the 1 value only if the column corresponds to the represented category.
+	
+	-  it counts all the categories within the features;
+	-  it replaces the analyzed features with as many columns as there are categories;
+	-  all the new columns values will be 0 or 1. For every sample (X's rows), it will be put the 1 value only if the column corresponds to the represented category.
 
-- **OrdinalEncoder**: we can import it by the command  
+	here a usage example:
+	
+	```python
+	from sklearn.preprocessing import OneHotEncoder
+	ohe = OneHotEncoder() # creating object
+	ohe.fit(X) # fit the data
+	ohe.categories_ # show categories founded
+	ohe.transform(X) # apply the transformation
+	```
 
-				  `from sklearn.preprocessing import OrdinalEncoder`
+- ### ORDINAL ENCODER  
 
-		1. it locates all the categories available;
-		2. it assignes an incremental value to every category
-		3. a single column with the corresponding incremental values is returned
+	- it locates all the categories available;
+	-  it assignes an incremental value to every category
+	-  a single column with the corresponding incremental values is returned
 
+	here a usage example:
 
+```python
+from sklearn.preprocessing import OrdinalEncoder
+oe = OrdinalEncoder() # creating object
+oe.fit(X) # fit the data
+oe.categories_ # show categories founded
+oe.transform(X) # apply the transformation
+```
 ## ENCODERS APPLIED TO TARGET
 
-The most famous is LabelEncoder (`from sklearn.preprocessing import LabelEncoding`).
+The most famous is **LabelEncoder**.
 It's similar to OrdinalEncoding, but it's applied to the targed instead of the predictor.
 
+here a usage example:
 
-## USAGE
-
-After we have imported the encoder, we have to:
-1) Create an object for the encoder
-   
-	   ohe = OneHotEncoder()     #OneHotEncoder
-	   oe = OrdinalEncoder()         #OrdinalEncoder
-	   le = LabelEncoder()              #LabelEncoder
-	   
-2) Fit the encoder
-   
-	   ohe.fit(X)
-	   oe.fit(X)
-	   le.fit(y)
-	   
-3) Show the found categories
-   
-	   ohe.categories_
-	   oe.categories_
-	   le.classes
-
-4) Transform the found categories
-   
-	   ohe.transform(X)
-	   oe.transform(X)
-	   le.transform(y)
+```python
+from sklearn.preprocessing import LabelEncoding
+le = LabelEncoding() # creating object
+le.fit(y) # fit the data
+le.classes # show classes founded
+le.transform(y) # apply the transformation
+```
