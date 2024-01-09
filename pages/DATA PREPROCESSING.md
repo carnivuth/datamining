@@ -22,13 +22,11 @@ the process of reducing the number of features
 
 ## [FEATURE SUBSET SELECTION](FEATURE%20SUBSET%20SELECTION.md)
 
-the process of selecting a subset of feature
+the process of selecting a subset of feature\
 
-## [LABEL ENCODING](LABEL%20ENCODING.md)
+## [FEATURE CREATION](FEATURE%20CREATION.md)
 
-the process of encode labels in numeric attributes
+the process of creating new features from existing data
 
-## FEATURE CREATION
 
-## DISCRETIZATION AND BINARIZATION ATTRIBUTE TRANSFORMATION
 
