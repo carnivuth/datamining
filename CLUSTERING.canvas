@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"8e2416943415ef41","x":200,"y":-560,"width":400,"height":400,"type":"file","file":"pages/clustering/CLUSTERING.md"},
+		{"id":"317631dcd0f55fe4","x":200,"y":40,"width":400,"height":400,"type":"file","file":"pages/clustering/K-MEANS.md"}
+	],
+	"edges":[
+		{"id":"e7bcd385802a47e3","fromNode":"8e2416943415ef41","fromSide":"bottom","toNode":"317631dcd0f55fe4","toSide":"top"}
+	]
+}

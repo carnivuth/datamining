@@ -20,7 +20,8 @@
 		{"id":"57ba395a7a7547b9","type":"file","file":"pages/SCELTE DI PROGETTO.md","x":2212,"y":-1560,"width":335,"height":256},
 		{"id":"d8f89172f4b02b7a","type":"text","text":"# SUPERVISED LEARNING","x":1555,"y":-722,"width":250,"height":84},
 		{"id":"b74175251077cc37","type":"file","file":"pages/DATA TYPES.md","x":580,"y":-680,"width":400,"height":400},
-		{"id":"2159b3b934d2c778","x":1480,"y":-322,"width":400,"height":400,"type":"file","file":"CLASSIFICATION.canvas"}
+		{"id":"2159b3b934d2c778","type":"file","file":"CLASSIFICATION.canvas","x":1480,"y":-322,"width":400,"height":400},
+		{"id":"844d1820f93a685f","x":1480,"y":-1920,"width":400,"height":400,"type":"file","file":"CLUSTERING.canvas"}
 	],
 	"edges":[
 		{"id":"dae3895ac9e72af7","fromNode":"e847392230486bab","fromSide":"right","toNode":"6966cc00003cb877","toSide":"left"},
@@ -40,6 +41,7 @@
 		{"id":"ef3845644ca9ed10","fromNode":"7c45bb36f05e5b73","fromSide":"top","toNode":"ae97461dd441081c","toSide":"bottom"},
 		{"id":"b39f3d0a858e7fe7","fromNode":"6ecf75efb9a7303c","fromSide":"left","toNode":"42e3c71a4a1dd100","toSide":"top"},
 		{"id":"375f883cfd90fd8c","fromNode":"42e3c71a4a1dd100","fromSide":"bottom","toNode":"056fd310066566d0","toSide":"top"},
-		{"id":"5e078b1de77f1fe6","fromNode":"d8f89172f4b02b7a","fromSide":"bottom","toNode":"2159b3b934d2c778","toSide":"top"}
+		{"id":"5e078b1de77f1fe6","fromNode":"d8f89172f4b02b7a","fromSide":"bottom","toNode":"2159b3b934d2c778","toSide":"top"},
+		{"id":"1c6bfd13bb1b1bec","fromNode":"6ecf75efb9a7303c","fromSide":"top","toNode":"844d1820f93a685f","toSide":"bottom"}
 	]
 }
