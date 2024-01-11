@@ -1,12 +1,15 @@
 {
 	"nodes":[
-		{"id":"bd5cc2c186c6513e","x":-576,"y":-1119,"width":639,"height":870,"type":"file","file":"pages/FEATURE SUBSET SELECTION.md"},
-		{"id":"94839b4b2a1dec51","x":619,"y":400,"width":841,"height":1213,"type":"file","file":"pages/SAMPLING.md"},
-		{"id":"ff325faa12fdff6f","x":-160,"y":560,"width":640,"height":743,"type":"file","file":"pages/SCALING.md"},
-		{"id":"fbf4d8f8a68b0c3b","x":1160,"y":-251,"width":400,"height":391,"type":"file","file":"pages/FEATURE CREATION.md"},
-		{"id":"4048a2750f515f64","x":676,"y":-1000,"width":684,"height":471,"type":"file","file":"pages/DIMENSIONALITY REDUCTION.md"},
-		{"id":"d7262774c5d64ddb","x":-680,"y":40,"width":343,"height":200,"type":"file","file":"pages/DATA PREPROCESSING.md"},
-		{"id":"dd7768016b37b514","x":-1360,"y":0,"width":400,"height":400,"type":"file","file":"pages/TYPE CONVERSIONS.md"}
+		{"id":"bd5cc2c186c6513e","type":"file","file":"pages/FEATURE SUBSET SELECTION.md","x":-576,"y":-1119,"width":639,"height":870},
+		{"id":"94839b4b2a1dec51","type":"file","file":"pages/SAMPLING.md","x":619,"y":400,"width":841,"height":1213},
+		{"id":"ff325faa12fdff6f","type":"file","file":"pages/SCALING.md","x":-160,"y":560,"width":640,"height":743},
+		{"id":"fbf4d8f8a68b0c3b","type":"file","file":"pages/FEATURE CREATION.md","x":1160,"y":-251,"width":400,"height":391},
+		{"id":"4048a2750f515f64","type":"file","file":"pages/DIMENSIONALITY REDUCTION.md","x":676,"y":-1000,"width":684,"height":471},
+		{"id":"d7262774c5d64ddb","type":"file","file":"pages/DATA PREPROCESSING.md","x":-680,"y":40,"width":343,"height":200},
+		{"id":"dd7768016b37b514","type":"file","file":"pages/TYPE CONVERSIONS.md","x":-1360,"y":0,"width":400,"height":400},
+		{"id":"7fd5b35f882fb209","x":-708,"y":870,"width":400,"height":400,"type":"file","file":"pages/SIMILARITY AND DISSIMILARITY.md"},
+		{"id":"9938201f0bcc2a77","x":-1320,"y":731,"width":400,"height":400,"type":"file","file":"pages/DISTANCES.md"},
+		{"id":"10b4c510401968cd","x":-823,"y":489,"width":225,"height":41,"type":"text","text":"# PROXIMITY"}
 	],
 	"edges":[
 		{"id":"4c3e9cf3050d1b64","fromNode":"d7262774c5d64ddb","fromSide":"right","toNode":"bd5cc2c186c6513e","toSide":"bottom"},
@@ -14,6 +17,9 @@
 		{"id":"dc3291d798198289","fromNode":"d7262774c5d64ddb","fromSide":"right","toNode":"fbf4d8f8a68b0c3b","toSide":"left"},
 		{"id":"f97a2fe55380871a","fromNode":"d7262774c5d64ddb","fromSide":"right","toNode":"94839b4b2a1dec51","toSide":"top"},
 		{"id":"a596bf5f8481ccd2","fromNode":"d7262774c5d64ddb","fromSide":"right","toNode":"ff325faa12fdff6f","toSide":"top"},
-		{"id":"6362fa8ff5cd2943","fromNode":"d7262774c5d64ddb","fromSide":"left","toNode":"dd7768016b37b514","toSide":"right"}
+		{"id":"6362fa8ff5cd2943","fromNode":"d7262774c5d64ddb","fromSide":"left","toNode":"dd7768016b37b514","toSide":"right"},
+		{"id":"0a8f6608df3bf6a1","fromNode":"d7262774c5d64ddb","fromSide":"bottom","toNode":"10b4c510401968cd","toSide":"top"},
+		{"id":"94854710411d170b","fromNode":"10b4c510401968cd","fromSide":"bottom","toNode":"7fd5b35f882fb209","toSide":"top"},
+		{"id":"65024be75c22e7ab","fromNode":"10b4c510401968cd","fromSide":"bottom","toNode":"9938201f0bcc2a77","toSide":"top"}
 	]
 }
