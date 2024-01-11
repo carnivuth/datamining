@@ -1,4 +1,4 @@
-
+# VALUTARE UN CLASSIFICATORE PROBABILISTICO
 
 Genera una probabilità per ogni possibile classe (simile al classificatore Crisp).
 Possiamo settare un Threashold di probabilità oltre il quale si restituisce il valore Binario.
