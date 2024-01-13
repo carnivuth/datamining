@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"d7ebf47e38d76306","type":"file","file":"pages/datamining_process/BUSINESS INTELLIGENCE AND DATA WAREHOUSE.md","x":-247,"y":-305,"width":400,"height":400},
+		{"id":"464fee893bfbcdae","type":"file","file":"pages/datamining_process/DATA WAREHOUSE ARCHITECTURES.md","x":327,"y":-285,"width":400,"height":400},
+		{"id":"6a28b7baa73f2f2f","type":"file","file":"pages/datamining_process/CONCEPTUAL MODELING.md","x":327,"y":195,"width":400,"height":400},
+		{"id":"985ed469e24641f5","type":"text","text":"# DATAMINING","x":-170,"y":-585,"width":246,"height":50},
+		{"id":"a97664559d5d3d40","type":"file","file":"pages/datamining_process/OLAP.md","x":-727,"y":-1145,"width":400,"height":400},
+		{"id":"3efc7f306306a1b0","type":"file","file":"pages/datamining_process/DATA LAKES.md","x":193,"y":-1145,"width":400,"height":400},
+		{"id":"4631052fd5702a03","type":"file","file":"pages/datamining_process/CRISP DM METHODOLOGY.md","x":327,"y":775,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"fe89d54a4522ccb2","fromNode":"d7ebf47e38d76306","fromSide":"right","toNode":"464fee893bfbcdae","toSide":"left"},
+		{"id":"effd350c8a9652eb","fromNode":"985ed469e24641f5","fromSide":"bottom","toNode":"d7ebf47e38d76306","toSide":"top"},
+		{"id":"271f55c030af99e3","fromNode":"985ed469e24641f5","fromSide":"top","toNode":"a97664559d5d3d40","toSide":"bottom"},
+		{"id":"b8eaeaba80e35d44","fromNode":"985ed469e24641f5","fromSide":"top","toNode":"3efc7f306306a1b0","toSide":"bottom"},
+		{"id":"b7cb6393fd6c9aa3","fromNode":"464fee893bfbcdae","fromSide":"bottom","toNode":"6a28b7baa73f2f2f","toSide":"top"},
+		{"id":"41e718f3115b8948","fromNode":"6a28b7baa73f2f2f","fromSide":"bottom","toNode":"4631052fd5702a03","toSide":"top"}
+	]
+}

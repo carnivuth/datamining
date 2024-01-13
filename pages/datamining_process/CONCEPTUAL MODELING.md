@@ -31,5 +31,5 @@
 | SECONDARY EVENT | identified by a set of n-ple dimensional attribute values, it aggregates a set of primary events |
 
 
-![](../assets/Pasted%20image%2020231010165953.png)
+![](Pasted%20image%2020231010165953.png)
 
