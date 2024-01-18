@@ -1,17 +1,20 @@
 {
 	"nodes":[
+		{"id":"62029534e347712e","x":-71,"y":720,"width":250,"height":60,"type":"text","text":""},
 		{"id":"8e2416943415ef41","type":"file","file":"pages/clustering/CLUSTERING.md","x":200,"y":-560,"width":400,"height":400},
-		{"id":"317631dcd0f55fe4","type":"file","file":"pages/clustering/K-MEANS.md","x":200,"y":40,"width":400,"height":400},
 		{"id":"40816fe9c0e47511","type":"file","file":"pages/clustering/CLUSTERING SCHEME EVALUATION.md","x":200,"y":-1080,"width":400,"height":400},
-		{"id":"3ac605a1beac5257","type":"file","file":"pages/clustering/HIERARCHICAL CLUSTERING.md","x":780,"y":40,"width":400,"height":400},
-		{"id":"060df3fcd3fc11ae","type":"file","file":"pages/clustering/DENSITY BASED CLUSTERING.md","x":-340,"y":40,"width":400,"height":400},
-		{"id":"31ae5581dec70746","x":-80,"y":660,"width":400,"height":400,"type":"file","file":"pages/clustering/DBSCAN.md"}
+		{"id":"3ac605a1beac5257","type":"file","file":"pages/clustering/HIERARCHICAL CLUSTERING.md","x":1120,"y":40,"width":400,"height":400},
+		{"id":"317631dcd0f55fe4","type":"file","file":"pages/clustering/K-MEANS.md","x":520,"y":40,"width":400,"height":400},
+		{"id":"060df3fcd3fc11ae","type":"file","file":"pages/clustering/DENSITY BASED CLUSTERING.md","x":-140,"y":40,"width":400,"height":400},
+		{"id":"ba157654103239ca","x":-740,"y":40,"width":400,"height":400,"type":"file","file":"pages/clustering/MODEL BASED CLUSTERING.md"},
+		{"id":"31ae5581dec70746","type":"file","file":"pages/clustering/DBSCAN.md","x":-140,"y":640,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"e7bcd385802a47e3","fromNode":"8e2416943415ef41","fromSide":"bottom","toNode":"317631dcd0f55fe4","toSide":"top"},
 		{"id":"4e094ea5a91d6d17","fromNode":"8e2416943415ef41","fromSide":"top","toNode":"40816fe9c0e47511","toSide":"bottom"},
 		{"id":"354a2cf7ab973fc7","fromNode":"8e2416943415ef41","fromSide":"bottom","toNode":"3ac605a1beac5257","toSide":"top"},
 		{"id":"fe03a4ce14b8831c","fromNode":"8e2416943415ef41","fromSide":"bottom","toNode":"060df3fcd3fc11ae","toSide":"top"},
-		{"id":"a89c30480fbcdfeb","fromNode":"060df3fcd3fc11ae","fromSide":"bottom","toNode":"31ae5581dec70746","toSide":"top"}
+		{"id":"a89c30480fbcdfeb","fromNode":"060df3fcd3fc11ae","fromSide":"bottom","toNode":"31ae5581dec70746","toSide":"top"},
+		{"id":"39cc87cc52babb92","fromNode":"8e2416943415ef41","fromSide":"bottom","toNode":"ba157654103239ca","toSide":"top"}
 	]
 }
