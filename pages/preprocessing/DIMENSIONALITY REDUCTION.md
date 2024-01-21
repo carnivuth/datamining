@@ -1,6 +1,6 @@
 # DIMENSIONALITY REDUCTION
 
-when dimensionality is very high occupation of the space become sparse and discrimination based on distance becomes uneffective
+when dimensionality is very high occupation of the space become sparse and discrimination based on distance becomes ineffective
 
 the scope of this processing is to:
 
@@ -11,4 +11,6 @@ the scope of this processing is to:
 
 ## PCA
 
-procedure to extract important variables from the dataset and reduce dimensionality. The new dataset will contains the attributes that campture most of the data variation
+procedure to extract important variables from the dataset and reduce dimensionality. The new dataset will contains the attributes that capture most of the data variation
+
+the PCA algorithm uses [singular value decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) to find the attributes that capture most of the data variation and reduce the number of dimensions in the dataset to make it more suitable for ML processes
