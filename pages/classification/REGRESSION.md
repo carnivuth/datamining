@@ -6,13 +6,13 @@ It's a supervised task used on numeric variables with the objective of **minimiz
 
 given a data set $X$ with $N$ rows and $D$ columns:
 
-- $xi$ is a $D$ dimensional data element response vector $y$ with $N$ values $yi$
+- $x_{i}$ is a $D$ dimensional data element response vector $y$ with $N$ values $y_{i}$
 - $w$ is a $D$-dimensional vector of coefficients that needs to be learned
 
 so the relation between the $yi$ element and the $xi$ elements is modeled
 
 $$
-yi = w^T*xi \space \forall i \in [1...N]
+y_{i} = w^T*x_{i} \space \forall i \in [1...N]
 $$
 so the forecast is given by
 
@@ -31,22 +31,22 @@ $$
 y^{avg} = \frac{1}{N}*\sum_{i}{yi}
 $$
 
-- Sum of squared residuals SSres “ ř
+- Sum of squared residuals $SS_{res}$ 
 
 $$
-SSres = \sum_{i}({yi-yi^f})^2
+SS_{res} = \sum_{i}({yi-yi^f})^2
 $$
 
-- Total sum of squares SStot “ ř
+- Total sum of squares $SS_{tot}$
 
 $$
-SStot = \sum_{i}({yi-yi^{avg}})^2
+SS_{tot} = \sum_{i}({yi-yi^{avg}})^2
 $$
 
 - Coefficient of determination 
 
 $$
-R^2 = 1 - \frac{SSres}{SStot}
+R^2 = 1 - \frac{SS_{res}}{SS_{tot}}
 $$
 
 the Coefficient of determination compares the chosen model with that of a horizontal straight line
