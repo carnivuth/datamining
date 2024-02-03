@@ -10,5 +10,5 @@ generate all possible combination and compute $conf$ and $sup$, this approach is
 
 this approach is based on the fact that rules that are generated from the same item-set have the same $sup$  
 
-- **FREQUENT ITEM-SET GENERATION** -> in the first step all item-set that have $sup \gt threshold$ are generated (**this step is still computational expensive**)
+- **[frequent itemset generation](FREQUENT%20ITEMSET%20GENERATION.md)** -> in the first step all item-set that have $sup \gt threshold$ are generated (**this step is still computational expensive**)
 - **RULE GENERATION** -> in the second step rules with high confidence are generated from the previous generated item-sets
