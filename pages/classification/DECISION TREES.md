@@ -14,7 +14,7 @@ that represents operations on the datasets used to classified data
 based on the concept of entropy
 
 $$
-H(X)= -\sum{pj\log{2}{pj}}
+H(X)= -\sum{p_{j}\log{2}{p_{j}}}
 $$
 
 - higher the entropy -> attribute values with the same probability
@@ -70,17 +70,17 @@ the value is more indicative of the expected behavior
 
 it happens when the hypothesis is fits too well the training data
 
-![](Pasted%20image%2020231114164008.png)
+$$
+error_{train}(h) \lt error_{train}(h') 
+$$
+$$
+error_{X}(h) \gt error_{X}(h')
 
-#### CAUSES
+$$
 
-- presence of noise 
-	individuals with bad attribute values
-- lack of representative instances
-	some real world patterns can be underrepresented in the training data
+possible causes of over-fitting can be the presence of noise on the data or a bad representative training set of the $X$ dataset.
 
-solution to overfitting is pruning the decision tree
-
+One of the possible solutions to overfitting is [decision tree pruning](DECISION%20TREE%20PRUNING.md)
 
 ### CHOOSING ATTRIBUTE FOR SPLIT WITH THE HIGHEST PURITY
 
@@ -94,20 +94,23 @@ based on the probability of wrong classification of a random assignment based on
 
 it is the sum of the frequencies of wrong classification
 
-![](Pasted%20image%2020231114165002.png)
+$$
+GINI_{p}=1- \sum_{j}{f^{2}_{pj}}
+$$
 
 the split is done by minimize the gini index reduction
 
-![](Pasted%20image%2020231114165235.png)
+$$
+GINI_{split}=GINI_{p} - \sum_{i=1}^{ds}{\frac{N_{p,i}}{N_{p}}*GINI(p_{i})}
+$$
 
 ### MISCLASSIFICATION ERROR
 
 
 it's complement to 1  of the highest label frequency called accuracy
-
 the split is like the one of the [GINI INDEX](#GINI%20INDEX)
 
-![](Pasted%20image%2020231114165507.png)
-
-
+$$
+ME(p) = 1 - max_{j}(f_{pj})
+$$
 

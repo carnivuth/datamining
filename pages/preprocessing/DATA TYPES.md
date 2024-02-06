@@ -1,3 +1,4 @@
+# DATA TYPES
 
 |  | Data types | Description | Examples | Descriptive statistics allowed | Domain |
 | ---- | ---- | ---- | ---- | ---- | ---- |

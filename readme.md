@@ -2,7 +2,6 @@
 
 this are my personal notes on datamining course of professor Sartori
 
-
 ## HOW TO USE
 - install [obsidian](https://obsidian.md/)
 - [clone the repository](https://github.com/carnivuth/gip.git)
@@ -27,13 +26,6 @@ source env/bin/activate
 # install dependencies
 pip install -r requirements.txt
 ```
-
-## MAP
-
-![](assets/map-screenshot.png)
-
-
-
 
 ## CREDITS
 

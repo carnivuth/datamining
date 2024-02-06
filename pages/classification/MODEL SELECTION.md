@@ -28,7 +28,9 @@ the empirical frequency of error $f = \frac{S}{N}$ with $S$ the test error and $
 
 the confidence interval is the probability that the true frequency of success is below the pessimistic frequency
 
-![](Pasted%20image%2020231230173354.png)
+$$
+P(z_{\alpha/2} \leq \frac{f-p}{\sqrt{p(1-p)/N}}\leq z_{(1-\alpha)/2}) = 1- \alpha
+$$
 
 boundaries on the curve $z$ depends on the desired confidence level $\alpha$ 
 
