@@ -3,4 +3,5 @@ env
 .ipynb_*
 *.csv
 .vscode
+.jukit
 __pycache__
