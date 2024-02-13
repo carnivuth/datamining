@@ -9,6 +9,8 @@ this are my personal notes on datamining course of professor Sartori
 
 it's possible to use the repo without obsidian but in order to get the best experience you need to install it
 
+
+
 ## HOW TO RUN THE CODES
 
 the labs folder contains the exercises of the course, it's meant to be use with a python virtual environment
@@ -26,6 +28,10 @@ source env/bin/activate
 # install dependencies
 pip install -r requirements.txt
 ```
+
+## QUESTINS 
+
+there are also some questions from the pasts exams [here](./pages/QUESTIONS.md)
 
 ## CREDITS
 
