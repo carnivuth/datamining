@@ -41,11 +41,40 @@
 
 ## EXTRACTION TRANSFORMATION AND LOADING (ETL)
 
-- ETL process aims to feeding the DWH with data from external sourcess
+The **ETL** process aims to get data from sources, improve general data quality, transform data according to the schema and loads it in the DWH
+
+
+```mermaid
+---
+title: ETL
+---
+flowchart TD
+A[EXTRACTION\nextract data from sources]
+B[CLEANSING\nimprovements to the quality\nremoving duplicates]
+C[TRASFORMATION\ndata processing according to the schema]
+D[LOADING\nload data in the DWH]
+A --> B
+B --> C
+C --> D
+```
 
 ### EXTRACTION
 
--  in this fase data are extracted from the external sources
+The extraction phase aims to get data from the datasources, there are 2 possible approaches: **STATIC**  or **INCREMENTAL** 
+
+
+```mermaid
+---
+title: EXTRACTION
+---
+flowchart TD
+A[APPROACHES]
+B[STATIC\nDWH is populated for the first time]
+C[INCREMENTAL\nthe DWH is updated with new data regularly]
+A --> B & C
+```
+
+Each approach is more suitable for certain types of data:
 
 | types of data                                        | types of extraction                             |
 |------------------------------------------------------|-------------------------------------------------|
