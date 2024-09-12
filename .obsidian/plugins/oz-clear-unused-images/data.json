@@ -1,7 +1,7 @@
 {
-  "deleteOption": "system-trash",
+  "deleteOption": "permanent",
   "logsModal": true,
-  "excludedFolders": "",
+  "excludedFolders": "labs",
   "ribbonIcon": true,
-  "excludeSubfolders": false
+  "excludeSubfolders": true
 }
