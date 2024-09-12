@@ -1,3 +1,10 @@
+---
+id: CONCEPTUAL MODELING
+aliases: []
+tags: []
+index: 5
+---
+
 # CONCEPTUAL MODELING
 
 - DWH modeling approaches are as follow
@@ -14,7 +21,7 @@
 - create effective documentation
 - support for conceptual design
 - user friendly environment for queries
-- favor communication between the designer and the user 
+- favor communication between the designer and the user
 
 ### dictionary
 
@@ -32,5 +39,7 @@
 | SECONDARY EVENT | identified by a set of n-ple dimensional attribute values, it aggregates a set of primary events |
 
 
-![](Pasted%20image%2020231010165953.png)
+![](Pasted_image_20231010165953.png)
 
+
+[PREVIOUS](DATA_WAREHOUSE_ARCHITECTURES.md) [NEXT](CRISP_DM_METHODOLOGY.md)

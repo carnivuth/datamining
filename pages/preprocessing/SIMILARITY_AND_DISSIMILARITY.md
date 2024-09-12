@@ -1,10 +1,17 @@
+---
+id: SIMILARITY AND DISSIMILARITY
+aliases: []
+tags: []
+index: 3
+---
+
 # SIMILARITY AND DISSIMILARITY
 
-## SIMILARITY 
+## SIMILARITY
 
 numerical measure of how alike two data objects are, higher when objects are more alike ( range of $[0-1]$ )
 
-## DISSIMILARITY 
+## DISSIMILARITY
 
 numerical measure of how different two data objects are, lower when objects are more alike ( minimum value  $0$ upper bound varies )
 
@@ -55,3 +62,5 @@ $$
 \frac{p*q}{|p|^2*|q|^2-p*q}
 $$
 
+
+[PREVIOUS](TYPE_CONVERSIONS.md) [NEXT](DISTANCES.md)

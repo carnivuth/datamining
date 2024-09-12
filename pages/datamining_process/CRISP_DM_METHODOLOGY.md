@@ -1,5 +1,12 @@
+---
+id: CRISP DM METHODOLOGY
+aliases: []
+tags: []
+index: 6
+---
 
-model for datamining process standardization, the goal is to set common names and steps to organized workloads inside the team 
+
+model for datamining process standardization, the goal is to set common names and steps to organized workloads inside the team
 
 ## PHASES
 
@@ -12,9 +19,9 @@ model for datamining process standardization, the goal is to set common names an
 
 ### data understending
 
-- what data are available 
+- what data are available
 - what data sources are available
-- what is the cost of raw data 
+- what is the cost of raw data
 
 in this steps we are interested in understand what data are available for the project describe them and verifying the quality
 
@@ -33,7 +40,7 @@ in this phase data are manipulated to improve quality as follows:
 
 every step of this phase should be modeled to be reproducible
 
-### data modeling 
+### data modeling
 
 in this phase we apply machine learning techniques to bring to light patterns hided into the data as follows
 
@@ -54,7 +61,7 @@ typically approving the best performing model
 - Process review
 - Determining the list of possible future actions and decisions
 
-### deployment 
+### deployment
 
 in this phase the results of the process are put into production to gain profit from the  investments as follows:
 
@@ -65,3 +72,5 @@ in this phase the results of the process are put into production to gain profit 
 
 
 
+
+[PREVIOUS](CONCEPTUAL_MODELING.md)

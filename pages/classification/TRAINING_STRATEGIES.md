@@ -1,3 +1,10 @@
+---
+id: TRAINING STRATEGIES
+aliases: []
+tags: []
+index: 2
+---
+
 # TRAINING STRATEGIES
 
 there are 2 main strategies for test
@@ -6,7 +13,7 @@ there are 2 main strategies for test
 
 	splitting data into training set and test set
 
-- ### [CROSS VALIDATION](#CROSS%20VALIDATION) 
+- ### [CROSS VALIDATION](#CROSS_VALIDATION)
 
 	repeted tests with different splits
 
@@ -28,9 +35,9 @@ this strategy splits the data in static groups, training and test with a test ra
 
 ## CROSS VALIDATION
 
-the training set is partitioned in $k$ subsets, than the **model is trained with 1 of the subsets for test and the other for training**, this **process is done $k$ times**. the final results are then combined together 
+the training set is partitioned in $k$ subsets, than the **model is trained with 1 of the subsets for test and the other for training**, this **process is done $k$ times**. the final results are then combined together
 
-![](Pasted%20image%2020231230181830.png)
+![](Pasted_image_20231230181830.png)
 
 ### PROS
 
@@ -42,3 +49,5 @@ the training set is partitioned in $k$ subsets, than the **model is trained with
 
 - train test loop repeated $k$ times
 
+
+[PREVIOUS](CLASSIFICATION.md) [NEXT](PERFORMANCE_OF_A_CLASSIFIER.md)

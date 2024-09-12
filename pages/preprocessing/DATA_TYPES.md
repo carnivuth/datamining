@@ -1,3 +1,9 @@
+---
+id: DATA TYPES
+aliases: []
+tags: []
+---
+
 # DATA TYPES
 
 |  | Data types | Description | Examples | Descriptive statistics allowed | Domain |
@@ -34,7 +40,7 @@ Interval does not preserve relative values upon scale change
 ## ASYMMETRIC ATTRIBUTES
 
 - attributes where only presence is relevant (non null value)
-	- example exams 
+	- example exams
 In particular, binary asymmetric attributes are relevant in the **discovery of association rules**
 
 ## GENERAL CHARACTERISTICS OF DATA SETS
@@ -57,7 +63,7 @@ The data is organized in records
 ## DATA QUALITY
 
 - data from source layer are often dirty and full of outliers due to noise (*example web crawler activity mixed with human activity on websites*)
-	- there can be missing values due to data not being collected 
+	- there can be missing values due to data not being collected
 	- there can be duplicated values
 
 ### DETECT OUTLIERS WITH DESCRIPTIVE STATISTICS
@@ -69,7 +75,7 @@ IQR = Q3 - Q1`
 lower-boundary = Q1 - IQR * 1.5
 upper-boundary = Q3 + IQR * 1.5
 
-with Q1 first quartile Q3 third quartile 
+with Q1 first quartile Q3 third quartile
 ```
 
 the outliers are values outside the boundaries
@@ -85,3 +91,5 @@ the outliers are values outside the boundaries
 ### DUPLICATED DATA
 
 - major issue when dealing with data merging from different sources
+
+ [NEXT](DATA_PREPROCESSING.md)

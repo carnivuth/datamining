@@ -1,4 +1,10 @@
-# MODEL SELECTION 
+---
+id: MODEL SELECTION
+aliases: []
+tags: []
+---
+
+# MODEL SELECTION
 
 In order to select the best model for a given problem the follow parameters need to be identified:
 
@@ -15,7 +21,7 @@ the process for detecting the best classification model, this process is **indep
 supervised data are usually scarse so the dataset must be split
 
 - train
-- evaluation 
+- evaluation
 - test
 
 ### TEST SET ERROR AND RUN TIME RELATIONS
@@ -32,8 +38,10 @@ $$
 P(z_{\alpha/2} \leq \frac{f-p}{\sqrt{p(1-p)/N}}\leq z_{(1-\alpha)/2}) = 1- \alpha
 $$
 
-boundaries on the curve $z$ depends on the desired confidence level $\alpha$ 
+boundaries on the curve $z$ depends on the desired confidence level $\alpha$
 
-![](Pasted%20image%2020231230173630.png)
+![](Pasted_image_20231230173630.png)
 
- 
+
+
+ [NEXT](CLASSIFICATION.md)

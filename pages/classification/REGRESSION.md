@@ -1,3 +1,10 @@
+---
+id: REGRESSION
+aliases: []
+tags: []
+index: 6
+---
+
 # REGRESSION
 
 It's a supervised task used on numeric variables with the objective of **minimize the error of the prediction**  using the other variables for the prediction
@@ -21,17 +28,17 @@ y^f = X*w^T
 $$
 
 
-![](Pasted%20image%2020240102171514.png)
+![](Pasted_image_20240102171514.png)
 
 ## QUALITY INDICATORS
 
-- Mean of the observed data 
+- Mean of the observed data
 
 $$
 y^{avg} = \frac{1}{N}*\sum_{i}{yi}
 $$
 
-- Sum of squared residuals $SS_{res}$ 
+- Sum of squared residuals $SS_{res}$
 
 $$
 SS_{res} = \sum_{i}({yi-yi^f})^2
@@ -43,7 +50,7 @@ $$
 SS_{tot} = \sum_{i}({yi-yi^{avg}})^2
 $$
 
-- Coefficient of determination 
+- Coefficient of determination
 
 $$
 R^2 = 1 - \frac{SS_{res}}{SS_{tot}}
@@ -59,4 +66,8 @@ when the number of feature is high overfitting is possible
 
 the target is influenced by a single feature and the relationship can't be describe by a straight line
 
-![](Pasted%20image%2020240102175121.png)
+![](Pasted_image_20240102175121.png)
+
+
+
+[PREVIOUS](DECISION_TREE_PRUNING.md) [NEXT](NAIVE_BAYES_CLASSIFIER.md)

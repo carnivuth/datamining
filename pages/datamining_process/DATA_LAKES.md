@@ -1,3 +1,10 @@
+---
+id: DATA LAKES
+aliases: []
+tags: []
+index: 3
+---
+
 
 - it's a repository of data stored in raw format
 - no schema on write requirements for the input sources to make easy the injection process
@@ -6,7 +13,7 @@
 ## BENEFITS
 
 - higher scalability (no need to scale large computing architectures)
-- data are stored only in one place 
+- data are stored only in one place
 - support for unstructured data
 - support for machine learning workloads
 
@@ -39,23 +46,23 @@
 
 ## DATA LAKES STRUCTURES
 
-![](Pasted%20image%2020231017155132.png)
+![](Pasted_image_20231017155132.png)
 
 
 ## DATA LAKE ARCHITECTURES
 
 ### lambda lake
 
-- designed for multiple workloads 
-- data are inserted in 2 pipelines one for time consuming operation (cold path) and one real-time workflows where data need to be sent to the clients faster 
+- designed for multiple workloads
+- data are inserted in 2 pipelines one for time consuming operation (cold path) and one real-time workflows where data need to be sent to the clients faster
 
-![](Pasted%20image%2020231017165627.png)
+![](Pasted_image_20231017165627.png)
 
 ### kappa lake
 
 -  simplified version of lambda lake, it removes the cold path stage and replace it with a long term data storage
 
-![](Pasted%20image%2020231017165903.png)
+![](Pasted_image_20231017165903.png)
 
 ### delta lake
 
@@ -67,3 +74,5 @@ advanced features like:
 - Unified batch and streaming source and sink.
 - Schema enforcement and evolution.
 - DBMS-like operations: updates, deletes, inserts, upserts (insert, on conflict update).
+
+[PREVIOUS](OLAP.md) [NEXT](DATA_WAREHOUSE_ARCHITECTURES.md)

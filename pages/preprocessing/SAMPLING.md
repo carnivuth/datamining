@@ -1,3 +1,10 @@
+---
+id: SAMPLING
+aliases: []
+tags: []
+index: 8
+---
+
 # SAMPLING
 
 the process of reducing the dataset dimensions making samples, the goals are:
@@ -12,15 +19,15 @@ a sample of a dataset **can be usefull if it is representative**
 - ### SIMPLE RANDOM
 
 	random choice of a object with given probability distribution
-	 
+
 - ### WITH REPLACEMENT
-	
+
 	repetition of independent extractions of type symple random
 
 - ### WITHOUT REPLACEMENT
 
 	repetition of extractions, extracted element is removed from the population, in a small population a small subject could be underestimated
-	
+
 - ### STRATIFIED
 
 	split data into several partitions according to some criteria, then draw the random samples from each partition
@@ -35,6 +42,8 @@ select the sample size is a tradeoff between data reduction and precision, there
 
 the probability of sampling at least an element for each class is independent from the size of the dataset (**if using replacement**)
 
-![](Pasted%20image%2020240104121302.png)
+![](Pasted_image_20240104121302.png)
 
 this is important when using a small dataset for cross-validation or train test splits cause there could be not enough data for the partition
+
+[PREVIOUS](SCALING.md) [NEXT](FEATURE_CREATION.md)

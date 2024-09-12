@@ -1,6 +1,13 @@
+---
+id: MODEL BASED CLUSTERING
+aliases: []
+tags: []
+index: 5
+---
+
 # MODEL BASED CLUSTERING
 
-The objective is to estimate the parameter of a statistical model 
+The objective is to estimate the parameter of a statistical model
 
 ## EXPECTATION MAXIMIZATION
 
@@ -14,3 +21,5 @@ flowchart TD
 ```
 
 
+
+[PREVIOUS](HIERARCHICAL_CLUSTERING.md) [NEXT](DENSITY_BASED_CLUSTERING.md)

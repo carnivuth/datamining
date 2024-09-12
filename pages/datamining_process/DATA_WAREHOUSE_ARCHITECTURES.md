@@ -1,3 +1,10 @@
+---
+id: DATA WAREHOUSE ARCHITECTURES
+aliases: []
+tags: []
+index: 4
+---
+
 ## REQUIREMENTS
 
 ### separation
@@ -15,13 +22,13 @@
 - the access to the DWH should be monitored
 ### administrability
 
-- the DWH should be easy to manage 
+- the DWH should be easy to manage
 
 ## SINGLE LAYER ARCHITECTURE
 
-![](Pasted%20image%2020231010120852.png)
+![](Pasted_image_20231010120852.png)
 
-- the goal is to minimize the data collected in the DWH by reducing the separation between source layer and analysis layer 
+- the goal is to minimize the data collected in the DWH by reducing the separation between source layer and analysis layer
 - to achieve this, a middleware software need to abstract the complexity and the divergency of the Source layer data
 
 | PROS                              | CONS                                             |
@@ -31,7 +38,7 @@
 
 ## TWO LAYERS ARCHITECTURE
 
-![](Pasted%20image%2020231010121252.png)
+![](Pasted_image_20231010121252.png)
 
 - in this architecture data are extracted from source layers trough ETL and are inserted in a data warehouse layer where they are stored and accessed by the analysis layer
 - the source and the analysis layer are separated but there is more space occupied
@@ -43,7 +50,7 @@
 
 ## THREE LAYERS ARCHITECTURE
 
-![](Pasted%20image%2020231010122320.png)
+![](Pasted_image_20231010122320.png)
 
 - the reconciled layer is added to the two layers architecture that creates a consistent model of the data and separate data extraction problem and integration problem
 
@@ -51,3 +58,5 @@
 |----------------------------------------------------------|----------------------|
 | more logical separation between the problem's management | more data redundancy |
 
+
+[PREVIOUS](DATA_LAKES.md) [NEXT](CONCEPTUAL_MODELING.md)

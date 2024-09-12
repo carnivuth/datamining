@@ -1,3 +1,10 @@
+---
+id: K-MEANS
+aliases: []
+tags: []
+index: 3
+---
+
 # K-MEANS
 
 algorithm for finding the best clustering scheme
@@ -28,7 +35,7 @@ $$
 Encode: \mathbb{R}^{D}\to [1 ... K]
 $$
 $$
-Decode: [1 ... K]\to \mathbb{R}^{D} 
+Decode: [1 ... K]\to \mathbb{R}^{D}
 $$
 
 it measures **how much the clustering scheme change the dataset**
@@ -52,7 +59,7 @@ choosing the starting point correctly is important, some possible choices are:
 - select random starting points
 - choose the $2...k$ starting point as far as possible from the previious ones
 
-## CHOOSING THE $k$ NUMBER OF CLUSTERS 
+## CHOOSING THE $k$ NUMBER OF CLUSTERS
 
 choosing the $k$ number of clusters correctly is important, one possible strategy is to use a quantitive evaluation of the quality of the clustering scheme.
 
@@ -68,7 +75,7 @@ during the clustering some clusters can become empty, so in this case there are 
 
 ## OUTLIERS
 
-there can be points far away from the  [centroid](CLUSTERING.md#CENTROID), this points are a bad influence for the [SSE](#DISTORTION%20(*SUM%20OF%20SQUARE%20ERRORS%20SSE*)), in some cases this points need to be removed
+there can be points far away from the  [centroid](CLUSTERING.md#CENTROID), this points are a bad influence for the [SSE](#DISTORTION_(*SUM_OF_SQUARE_ERRORS_SSE*)), in some cases this points need to be removed
 ## COMPLEXITY
 
 the complexity of the algorithm is :
@@ -77,9 +84,9 @@ $$
 \mathcal{O}(TKND)\space with:
 $$
 
-- $T$  as the number of iterations 
-- $K$  as the number of clusters 
-- $N$  as the number of data points 
+- $T$  as the number of iterations
+- $K$  as the number of clusters
+- $N$  as the number of data points
 - $D$  as the number of dimensions
 
 
@@ -90,9 +97,11 @@ $$
 
 ## CONS
 
-- k-means cannot work in space where [distance](DISTANCES.md) cannot be computed 
+- k-means cannot work in space where [distance](DISTANCES.md) cannot be computed
 - cannot work with nominal data
 - requires the K parameter (it can be computed but it is a cost)
 - it is very sensitive to outliers
 - does not deal with noise
 - does not deal properly with non convex clusters
+
+[PREVIOUS](CLUSTERING_SCHEME_EVALUATION.md) [NEXT](HIERARCHICAL_CLUSTERING.md)

@@ -1,3 +1,10 @@
+---
+id: HIERARCHICAL CLUSTERING
+aliases: []
+tags: []
+index: 4
+---
+
 # HIERARCHICAL CLUSTERING
 
 Type of clustering that revolves around creating a nested structure of clustering, there are 2 types of hierarchical clustering:
@@ -12,7 +19,7 @@ flowchart TD
 	B-->|repeat until the best \n clustering scheme|A
 ```
 
-- ## Divisive (top down approach) 
+- ## Divisive (top down approach)
 
 
 ```mermaid
@@ -35,4 +42,6 @@ so in conclusion the time complexity is $\mathcal{O}(N^3)$
 
  - poor scaling due to high complexity
  - no global objective function
- 
+
+
+[PREVIOUS](K-MEANS.md) [NEXT](MODEL_BASED_CLUSTERING.md)

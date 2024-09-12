@@ -1,6 +1,13 @@
-- process of transforming data into something useful for decision making 
+---
+id: BUSINESS INTELLIGENCE AND DATA WAREHOUSE
+aliases: []
+tags: []
+index: 1
+---
 
-![](Pasted%20image%2020230928151132.png)
+- process of transforming data into something useful for decision making
+
+![](Pasted_image_20230928151132.png)
 
 ## DATA WAREHOUSE (DWH)
 
@@ -14,6 +21,8 @@
 
 -  in a DWH data are organized in a multidimensional structure that store data based in categories
 
-![](Pasted%20image%2020230928152914.png)
+![](Pasted_image_20230928152914.png)
 
-this model can be explored interactively by the user through [OLAP](OLAP.md) queries  
+this model can be explored interactively by the user through [OLAP](OLAP.md) queries
+
+ [NEXT](OLAP.md)

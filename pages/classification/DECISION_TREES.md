@@ -1,3 +1,10 @@
+---
+id: DECISION TREES
+aliases: []
+tags: []
+index: 4
+---
+
 # DECISION TREES
 
 Decision trees are tree shaped data structures with node and leaf
@@ -5,7 +12,7 @@ that represents operations on the datasets used to classified data
 
 - leaf -> put data in class c (class of the leaf node)
 
-- node -> split dataset and exec leaf node with the dataset subsets 
+- node -> split dataset and exec leaf node with the dataset subsets
 
 ## SPLITTING DATASET METHODS
 
@@ -23,24 +30,24 @@ $$
 
 the entropy of a child node is always lower of the entropy of the father node
 
-#### INFORMATION GAIN 
+#### INFORMATION GAIN
 
-the difference between the dataset entropy and the subset entropy obtained from a threshold based split   
+the difference between the dataset entropy and the subset entropy obtained from a threshold based split
 
 the objective is to maximize information gain in order to obtain the best split
 
 #### CHOOSING THE RIGHT ATTRIBUTE FOR THE SPLIT
 
-the attribute with the maximum [IG](#INFORMATION%20GAIN) is chosen
+the attribute with the maximum [IG](#INFORMATION_GAIN) is chosen
 
 ### BUILD DECISION TREE WITH BINARY SPLITS
 
 ```python
 procedure buildTree(dataset X , node p)
-	
+
 	if all the class values of X are c then
 		return node p as a leaf, label of p is c
-	
+
 	if no attribute can give a positive information gain in X then
 		say that the majority of elements in X has class c
 		return node p as a leaf, label of p is c
@@ -62,16 +69,16 @@ it's a lower bound for the error rate of the predictions
 
 ### TEST SET ERROR
 
-same calculus of the  [training set error](#TRAINING%20SET%20ERROR) 
+same calculus of the  [training set error](#TRAINING_SET_ERROR)
 
-the value is more indicative of the expected behavior 
+the value is more indicative of the expected behavior
 
 ### OVERFITTING
 
 it happens when the hypothesis is fits too well the training data
 
 $$
-error_{train}(h) \lt error_{train}(h') 
+error_{train}(h) \lt error_{train}(h')
 $$
 $$
 error_{X}(h) \gt error_{X}(h')
@@ -80,13 +87,13 @@ $$
 
 possible causes of over-fitting can be the presence of noise on the data or a bad representative training set of the $X$ dataset.
 
-One of the possible solutions to overfitting is [decision tree pruning](DECISION%20TREE%20PRUNING.md)
+One of the possible solutions to overfitting is [decision tree pruning](DECISION_TREE_PRUNING.md)
 
 ### CHOOSING ATTRIBUTE FOR SPLIT WITH THE HIGHEST PURITY
 
-- [INFORMATION THEORY BASED METHOD](#INFORMATION%20THEORY%20BASED%20METHOD)
-- [GINI INDEX](#GINI%20INDEX)
-- [MISCLASSIFICATION ERROR](#MISCLASSIFICATION%20ERROR)
+- [INFORMATION THEORY BASED METHOD](#INFORMATION_THEORY_BASED_METHOD)
+- [GINI INDEX](#GINI_INDEX)
+- [MISCLASSIFICATION ERROR](#MISCLASSIFICATION_ERROR)
 
 ### GINI INDEX
 
@@ -108,9 +115,11 @@ $$
 
 
 it's complement to 1  of the highest label frequency called accuracy
-the split is like the one of the [GINI INDEX](#GINI%20INDEX)
+the split is like the one of the [GINI INDEX](#GINI_INDEX)
 
 $$
 ME(p) = 1 - max_{j}(f_{pj})
 $$
 
+
+[PREVIOUS](PERFORMANCE_OF_A_CLASSIFIER.md) [NEXT](DECISION_TREE_PRUNING.md)

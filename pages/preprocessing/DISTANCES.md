@@ -1,9 +1,16 @@
+---
+id: DISTANCES
+aliases: []
+tags: []
+index: 4
+---
+
 # DISTANCES
 
 ## PROPERTIES OF DISTANCES
 
 - **symmetry** $Dist(p,q) = Dist(q, p)$
-- **positive definiteness** $Dist(p,q) >= 0 \forall\space{p,q}$ 
+- **positive definiteness** $Dist(p,q) >= 0 \forall\space{p,q}$
 - **Triangle inequality** $Dist(p,q) <= Dist(p,r) + Dist(r,q) \forall\space{p,q,r}$
 
 ## EUCLIDEAN DISTANCE
@@ -48,3 +55,5 @@ $$
 \sqrt{(p-q)\sum^{-1}{(p-q)^T}}
 $$
 
+
+[PREVIOUS](SIMILARITY_AND_DISSIMILARITY.md) [NEXT](FEATURE_SUBSET_SELECTION.md)

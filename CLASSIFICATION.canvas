@@ -5,19 +5,17 @@
 		{"id":"5cfa5299ec6e5e42","type":"file","file":"pages/classification/LINEAR PERCEPTRON.md","x":880,"y":-1140,"width":560,"height":400},
 		{"id":"9f5fffddfbaf0c19","type":"file","file":"pages/classification/SVM.md","x":880,"y":-440,"width":560,"height":560},
 		{"id":"030e01b3f666f84d","type":"file","file":"pages/classification/RETI NEURALI.md","x":850,"y":360,"width":620,"height":520},
-		{"id":"7e5a119bbf27b16a","type":"file","file":"pages/VALUTARE UN CLASSIFICATORE PROBABILISTICO.md","x":105,"y":-460,"width":540,"height":600},
 		{"id":"5697c0e8d4fadc73","type":"file","file":"pages/classification/DECISION TREES.md","x":-405,"y":-1140,"width":400,"height":400},
 		{"id":"96f0383b7c3cdd2d","type":"file","file":"pages/classification/DECISION TREE PRUNING.md","x":-405,"y":-460,"width":400,"height":400},
 		{"id":"12269943a4445a5d","type":"file","file":"pages/classification/REGRESSION.md","x":-880,"y":-1140,"width":400,"height":400},
 		{"id":"fd16fde9c842e44d","type":"file","file":"pages/classification/TRAINING STRATEGIES.md","x":-605,"y":-1880,"width":400,"height":400},
-		{"id":"5d76ed9475dd6a2b","type":"file","file":"pages/classification/PERFORMANCE OF A CLASSIFIER.md","x":880,"y":-1880,"width":400,"height":400}
+		{"id":"5d76ed9475dd6a2b","type":"file","file":"pages/classification/PERFORMANCE_OF_A_CLASSIFIER.md","x":880,"y":-1880,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"deda8623490138f7","fromNode":"5697c0e8d4fadc73","fromSide":"bottom","toNode":"96f0383b7c3cdd2d","toSide":"top"},
 		{"id":"f9597acbc37cfe21","fromNode":"c0a3107194fb5ae7","fromSide":"bottom","toNode":"5697c0e8d4fadc73","toSide":"top"},
 		{"id":"e1a41272a88507d2","fromNode":"c0a3107194fb5ae7","fromSide":"left","toNode":"fd16fde9c842e44d","toSide":"right"},
 		{"id":"58b4fbfe6e88b23b","fromNode":"c0a3107194fb5ae7","fromSide":"bottom","toNode":"12269943a4445a5d","toSide":"top"},
-		{"id":"96c8250cafb56e33","fromNode":"5eb3a3b43f9ae782","fromSide":"bottom","toNode":"7e5a119bbf27b16a","toSide":"top"},
 		{"id":"a3c41bfd658ee9ff","fromNode":"c0a3107194fb5ae7","fromSide":"bottom","toNode":"5eb3a3b43f9ae782","toSide":"top"},
 		{"id":"0c7c37d6d6ad53ed","fromNode":"c0a3107194fb5ae7","fromSide":"right","toNode":"5d76ed9475dd6a2b","toSide":"left"},
 		{"id":"2828866a9b800c1e","fromNode":"5cfa5299ec6e5e42","fromSide":"bottom","toNode":"9f5fffddfbaf0c19","toSide":"top"},

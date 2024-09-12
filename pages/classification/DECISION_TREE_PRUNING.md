@@ -1,3 +1,10 @@
+---
+id: DECISION TREE PRUNING
+aliases: []
+tags: []
+index: 5
+---
+
 # DECISION TREE PRUNING
 
 In order to avoid over fitting  pruning can be done
@@ -13,11 +20,13 @@ where:
 $$
 ei = \sum_{leaf}{e}
 $$
-## BEFORE PRUNING 
+## BEFORE PRUNING
 
-![](Pasted%20image%2020231230175754.png)
+![](Pasted_image_20231230175754.png)
 
 ## AFTER PRUNING
 
-![](Pasted%20image%2020231230175803.png)
+![](Pasted_image_20231230175803.png)
 
+
+[PREVIOUS](DECISION_TREES.md) [NEXT](REGRESSION.md)

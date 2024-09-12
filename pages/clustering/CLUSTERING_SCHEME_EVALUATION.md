@@ -1,10 +1,17 @@
+---
+id: CLUSTERING SCHEME EVALUATION
+aliases: []
+tags: []
+index: 2
+---
+
 # CLUSTERING SCHEME EVALUATION
 
-Clustering scheme evaluation is important in order to comprehend the quality of a clustering scheme, it's also used to compere clustering scheme  
+Clustering scheme evaluation is important in order to comprehend the quality of a clustering scheme, it's also used to compere clustering scheme
 
 ## MEASUREMENT CRITERIA
 
-### COHESION [(SSE)](K-MEANS.md#DISTORTION%20(*SUM%20OF%20SQUARE%20ERRORS%20SSE*))
+### COHESION [(SSE)](K-MEANS.md#DISTORTION_(*SUM_OF_SQUARE_ERRORS_SSE*))
 
 the sum of the proximities between the element of the clusters and the geometric center (**prototype**), the prototype could be a [centroid](CLUSTERING.md#CENTROID) or a medoid in context where mean is not defined
 
@@ -26,7 +33,7 @@ $$
 TTS=SSE+SSB
 $$
 
-### SILHOUETTE 
+### SILHOUETTE
 
 Is a measure of how much a point contributes to separation between clusters and increasing cohesion following formulas considers  silhouette value for a point $x_{i}$
 
@@ -51,14 +58,16 @@ silhouette is a lot expensive to compute due to it's nature
 
 ## SEARCHING FOR THE BEST $k$ VALUE (the elbow method)
 
-[silhouette](#SILHOUETTE) and [sse](K-MEANS.md#DISTORTION%20(*SUM%20OF%20SQUARE%20ERRORS%20SSE*)) can be used in order to find the best value parameter, the best points to look are the minimums of the relation between sse and $k$ and the maximums in the relation between silhouette and $k$ 
+[silhouette](#SILHOUETTE) and [sse](K-MEANS.md#DISTORTION_(*SUM_OF_SQUARE_ERRORS_SSE*)) can be used in order to find the best value parameter, the best points to look are the minimums of the relation between sse and $k$ and the maximums in the relation between silhouette and $k$
 
-![](Pasted%20image%2020240116140806.png)
+![](Pasted_image_20240116140806.png)
 
 
 ## COMPARING CLUSTERING SCHEMES
 
-The concept is similar to the ones used to test [classification](CLASSIFICATION.md#CLASSIFICATION%20WORKFLOW), there is a known partition of the dataset similar to the data to be clustered called **gold standard** and a labeling scheme $y_{g}(.)$
+The concept is similar to the ones used to test [classification](CLASSIFICATION.md#CLASSIFICATION_WORKFLOW), there is a known partition of the dataset similar to the data to be clustered called **gold standard** and a labeling scheme $y_{g}(.)$
 
-$y_{g}(.)$ acts as a test set but for clustering so we can compare a clustering scheme to it and gain information about the quality of the clustering 
+$y_{g}(.)$ acts as a test set but for clustering so we can compare a clustering scheme to it and gain information about the quality of the clustering
 
+
+[PREVIOUS](CLUSTERING.md) [NEXT](K-MEANS.md)

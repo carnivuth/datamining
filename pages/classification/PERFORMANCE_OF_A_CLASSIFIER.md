@@ -1,9 +1,16 @@
-# PERFORMANCE OF A CLASSIFIER 
+---
+id: PERFORMANCE OF A CLASSIFIER
+aliases: []
+tags: []
+index: 3
+---
+
+# PERFORMANCE OF A CLASSIFIER
 
 
 ## DEFINITIONS
 
-in a classification problem where **class is a binary attribute** the follow schema can be produced in order to study data   
+in a classification problem where **class is a binary attribute** the follow schema can be produced in order to study data
 
 |              | POS-PRED   | NEG-PRED   |
 | ------------ | ---------- | ---------- |
@@ -17,7 +24,7 @@ where:
 - $FP$ false positives
 - $FN$ false negatives
 
-these measurements can be used to calculate some interesting performance metrics such as 
+these measurements can be used to calculate some interesting performance metrics such as
 
 - ### SUCCESS RATE (ACCURACY)
 
@@ -49,7 +56,7 @@ accuracy of the classifier
 
 - ### SPECIFICITY
 
-	rate of negatives that the classifier can catch 
+	rate of negatives that the classifier can catch
 
 	$$
 	\frac{TN}{TN + FP}
@@ -63,7 +70,7 @@ accuracy of the classifier
 	2*\frac{precision*recall}{precision + recall}
 	$$
 
-![](Pasted%20image%2020231230184224.png)
+![](Pasted_image_20231230184224.png)
 
 **accuracy** gives an inital idea of the performance but **can be misleading when classes are unbalanced**
 
@@ -116,3 +123,5 @@ these measures can be weighted:
 $$
 f(C)= \frac{\sum{f(ci)*Ci}}{C}
 $$
+
+[PREVIOUS](TRAINING_STRATEGIES.md) [NEXT](DECISION_TREES.md)

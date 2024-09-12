@@ -1,3 +1,10 @@
+---
+id: DBSCAN
+aliases: []
+tags: []
+index: 7
+---
+
 # DBSCAN (DENSITY BASED SPATIAL CLUSTERING OF APPLICATION WITH NOISE)
 
 ## DEFINITIONS
@@ -5,7 +12,7 @@
 Define $\epsilon$ as the radius of an hypersphere  and a $minPoints$ threshold value
 
 - ### CORE
-	
+
 	a point with $n > minPoints$ points inside is hypersphere of $\epsilon$ radius
 
 - ###  BORDER
@@ -15,15 +22,15 @@ Define $\epsilon$ as the radius of an hypersphere  and a $minPoints$ threshold v
 - ###  NEIGHBORHOOD
 
 	two points are in neighborhood with each other when they are inside each hypersphere
-	
+
 - ### DIRECT DENSITY REACHABILITY
 
 	a point $p$ is in direct density reachable with a point $q$ when $q$ is core and $p$ is in $q$ neighborhood
 
 - ###  DENSITY REACHABILITY
 
-	a point $p$ is in density reachable with a point $q$ when  and $p$  are connected by a series of direct density reachable points $q_{n}$ 
-	
+	a point $p$ is in density reachable with a point $q$ when  and $p$  are connected by a series of direct density reachable points $q_{n}$
+
 - ### DENSITY CONNECTION
 
 	a point $p$ is density connected to point $q$ if there is a point $s$ such that $p$ and $q$ are density reachable from $s$
@@ -77,3 +84,5 @@ END; # ExpandCluster
 ## PARAMETERS TO TUNE
 
 $\epsilon$ and $minPoints$ are the parameter that need to be tuned, a good value for $minPoints$ can be $2*D$ where $D$ is the number of dimensions
+
+[PREVIOUS](DENSITY_BASED_CLUSTERING.md)
